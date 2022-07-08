@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.encabezado{
+    background: #008a93;
+}
+img{
+    width: 70px;
+    border-radius: 50%;
+}
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+}
+a:hover{
+    background: rgb(44,44,44);
+}
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.encabezado nav ul li ul{
+    position: absolute;
+    background: #008a93;
+}
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+.encabezado nav ul li ul li ul{
+    top: 0;
+    left: 180px;
+    position: absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover > ul{
+    display: block;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/goro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: aqua;
+    font-size: 50px;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+}
+
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: aliceblue;
+}
+
+
